@@ -20,6 +20,10 @@ Traceback (most recent call last):
 TypeError: bar() missing 1 required positional argument: 'self'
 ```
 
+## How to Reproduce
+
+On windows execute `run.bat` or unix `bash run.bash`
+
 ## Env Info
 
 Confirming this issue affects the following envs:
