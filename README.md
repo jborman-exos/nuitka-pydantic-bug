@@ -29,7 +29,19 @@ On windows execute `run.bat` or unix `bash run.bash`
 Confirming this issue affects the following envs:
 
 ```
-(.venv) [user1]@LAPTOP-54N6HJS3:/mnt/c/Users/[user1]/github/nuitka-pydantic-bug$ python -m nuitka --version
+(.venv) [user1]@LAPTOP:/mnt/c/Users/[user1]/github/nuitka-pydantic-bug$ python -m nuitka --version
+0.6.19rc8
+Commercial: None
+Python: 3.9.9 (main, Dec 29 2021, 12:20:17)
+Flavor: pyenv
+Executable: /mnt/c/Users/[user1]/github/nuitka-pydantic-bug/.venv/bin/python
+OS: Linux
+Arch: x86_64
+Distribution: Ubuntu 16.04.6
+```
+
+```
+(.venv) [user1]@LAPTOP:/mnt/c/Users/[user1]/github/nuitka-pydantic-bug$ python -m nuitka --version
 0.6.18.6
 Commercial: None
 Python: 3.9.9 (main, Dec 29 2021, 12:20:17)
@@ -41,7 +53,7 @@ Distribution: Ubuntu "16.04.6
 ```
 
 ```
-(.venv) [user1]@LAPTOP-54N6HJS3:/mnt/c/Users/[user1]/github/nuitka-pydantic-bug$ python -m nuitka --version
+(.venv) [user1]@LAPTOP:/mnt/c/Users/[user1]/github/nuitka-pydantic-bug$ python -m nuitka --version
 0.6.15.3
 Python: 3.9.9 (main, Dec 29 2021, 12:20:17)
 Executable: /mnt/c/Users/[user1]/github/nuitka-pydantic-bug/.venv/bin/python
