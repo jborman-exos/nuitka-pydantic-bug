@@ -1,11 +1,11 @@
-from pydantic import BaseModel, Field
+from pydantic import BaseModel
 
 class A:
     def foo(self, foo_arg):
         print(f'A.foo({foo_arg})')
 
 class B(BaseModel):
-    member_a: A = Field(repr=False)
+    member_a: A
 
     def bar(self, bar_arg: str) -> None:
         self.member_a.foo(bar_arg)
